@@ -16,3 +16,14 @@ This is the material to upload to coursera for the IBM Applied Data Science Caps
 12. Required Conclusion slide (1 pts)
 13. Applied your creativity to improve the presentation beyond the template (1 pts)
 14. Displayed any innovative insights (1 pts)
+
+File Description:
+1. Week 1 Hands-on Lab: Complete the Data Collection API Lab (jupyter-labs-spacex-data-collection-api.ipynb)
+2. Week 1 Hands-on Lab: Hands-on Lab: Data Wrangling (labs-jupyter-spacex-Data wrangling.ipynb)
+3. Week 2 Hands-on Lab: Complete the EDA with SQL (eda-sql.ipynb)
+4. Week 2 Hands on Lab: Complete the EDA with Visualization lab (jupyter-labs-eda-dataviz.ipynb)
+5. Week 3 Hands on Lab: Complete the Data Visualization with Folium (lab_jupyter_launch_site_location)
+6. Week 3 Hands-on Lab: Build an Interactive Dashboard with Ploty Dash (spacex_dash_app.py)
+7. Week 4 Hands on Lab: Complete the Machine Learning Prediction lab (SpaceX_Machine Learning Prediction_Part_5.ipynb)
+
+
