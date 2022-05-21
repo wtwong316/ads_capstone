@@ -2,7 +2,7 @@
 Cousera IBM Applied Data Science Capstone
 This is the material to upload to coursera for the IBM Applied Data Science Capstone.
 
-1.  Presentation in PDF format (1 pt)
+1.  Presentation in PDF format (1 pt) ==> ds-capstone-coursera.pdf
 2.  Required Executive Summary slide (1 pt)
 3.  Required Introduction slide (1 pt)
 4.  Required data collection and data wrangling methodology related slides (1 pt)
