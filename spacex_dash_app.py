@@ -1,4 +1,3 @@
-# Import required libraries
 import pandas as pd
 import dash
 import dash_html_components as html
@@ -83,16 +82,17 @@ def get_graf (select, Range):
     low, high = Range
     scatt_data = spacex_df[spacex_df['Payload Mass (kg)'].apply(lambda x : x > low and x < high)].reset_index()
     if select == 'All':
-        scatt_fig = px.scatter(scatt_data, x= 'Payload Mass (kg)', y='class', color='Booster Version',
+        scatt_fig = px.scatter(scatt_data, x= 'Payload Mass (kg)', y='class', color='Booster Version Category',
                                title='Success correlation by Payload Mass & BoosterVersion')
         return scatt_fig
     else:
         scatt_data = scatt_data[spacex_df['Launch Site']== select].reset_index()
         scatt_data = scatt_data.groupby(['Launch Site','class', 'Booster Version'])['Payload Mass (kg)'].sum().reset_index()
-        scatt_fig = px.scatter(scatt_data, x= 'Payload Mass (kg)', y='class', color='Booster Version',
+        scatt_fig = px.scatter(scatt_data, x= 'Payload Mass (kg)', y='class', color='Booster Version Category',
                                title='Success correlation by Payload Mass & BoosterVersion')
         return scatt_fig       
 
 # Run the app
 if __name__ == '__main__':
     app.run_server()
+
